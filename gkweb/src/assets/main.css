@@ -1,0 +1,124 @@
+/* 基础重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* 颜色变量 - 按目的港区分 */
+  --pod-hkg: #4CAF50;  /* 香港 - 绿色 */
+  --pod-sin: #2196F3;  /* 新加坡 - 蓝色 */
+  --pod-nyc: #9C27B0;  /* 纽约 - 紫色 */
+  --pod-lax: #FF9800;  /* 洛杉矶 - 橙色 */
+  --pod-default: #607D8B; /* 默认 - 灰色 */
+
+  /* 特殊箱标识 */
+  --reefer: #00BCD4;
+  --hazardous: #F44336;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 集装箱基础样式 */
+.container-slot {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 10px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.has-container {
+  background-color: var(--pod-default);
+  color: white;
+  font-weight: bold;
+}
+
+/* 按目的港着色 */
+.has-container[class*="pod-hkg"] { background-color: var(--pod-hkg); }
+.has-container[class*="pod-sin"] { background-color: var(--pod-sin); }
+.has-container[class*="pod-nyc"] { background-color: var(--pod-nyc); }
+.has-container[class*="pod-lax"] { background-color: var(--pod-lax); }
+
+/* 特殊箱标识 */
+.is-reefer {
+  border: 2px solid var(--reefer);
+}
+
+.is-hazardous {
+  border: 2px solid var(--hazardous);
+  background-image: linear-gradient(
+    45deg,
+    transparent 65%,
+    var(--hazardous) 65%,
+    var(--hazardous) 80%,
+    transparent 80%
+  );
+}
+
+/* 贝位图布局 */
+.bay-plan {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.bay {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.row {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.row-label {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.slots {
+  display: flex;
+  flex-direction: column-reverse; /* 使层数从下往上排列 */
+  gap: 2px;
+}
+/* 禁用文本选中 */
+body {
+  -webkit-user-select: none;  /* Chrome/Safari */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE10+ */
+  user-select: none;          /* Standard syntax */
+}
+
+/* 允许贝位标题和行标签选中（可选） */
+.bay-title,
+.row-label {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
