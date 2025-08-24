@@ -1,0 +1,62 @@
+[
+  {
+    "containerId": "CMAU1234567",
+    "location": {"area": "A", "bay": 10, "row": 2, "tier": 3}
+  },
+  {
+    "containerId": "MSCU7654321",
+    "location": {"area": "C", "bay": 25, "row": 1, "tier": 1}
+  },
+  {
+    "containerId": "YMLU9876543",
+    "location": {"area": "A", "bay": 11, "row": 4, "tier": 2}
+  },
+  {
+    "containerId": "EVGU1122334",
+    "location": {"area": "B", "bay": 5, "row": 3, "tier": 4}
+  },
+  {
+    "containerId": "TGHU3344556",
+    "location": {"area": "D", "bay": 15, "row": 2, "tier": 1}
+  },
+  {
+    "containerId": "OOLU7788990",
+    "location": {"area": "E", "bay": 8, "row": 3, "tier": 2}
+  },
+  {
+    "containerId": "APLU1122334",
+    "location": {"area": "A", "bay": 12, "row": 1, "tier": 3}
+  },
+  {
+    "containerId": "HLCU5566778",
+    "location": {"area": "F", "bay": 30, "row": 4, "tier": 1}
+  },
+  {
+    "containerId": "MAEU9900112",
+    "location": {"area": "B", "bay": 7, "row": 2, "tier": 3}
+  },
+  {
+    "containerId": "COSU3344667",
+    "location": {"area": "C", "bay": 22, "row": 3, "tier": 2}
+  },
+  {
+    "containerId": "HMMU1122445",
+    "location": {"area": "A", "bay": 9, "row": 4, "tier": 1}
+  },
+  {
+    "containerId": "ONEU5566889",
+    "location": {"area": "D", "bay": 18, "row": 1, "tier": 4}
+  },
+  {
+    "containerId": "WHLU7788001",
+    "location": {"area": "E", "bay": 6, "row": 2, "tier": 3}
+  },
+  {
+    "containerId": "EMCU2233445",
+    "location": {"area": "B", "bay": 14, "row": 3, "tier": 2}
+  },
+  {
+    "containerId": "PILU6677889",
+    "location": {"area": "F", "bay": 28, "row": 1, "tier": 1}
+  }
+]

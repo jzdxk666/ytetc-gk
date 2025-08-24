@@ -1,0 +1,335 @@
+{
+  "vesselId": "COSCO_ASIA_PLUS",
+  "vesselCapacity": {
+    "totalSlots": 152,
+    "totalWeightCapacityKg": 2268000
+  },
+  "bayDetails": [
+    {
+      "bayNumber": "01",
+      "isReeferReady": false,
+      "rows": [
+        {
+          "rowNumber": "01",
+          "maxTiers": 6,
+          "maxWeightKg": 90000
+        },
+        {
+          "rowNumber": "02",
+          "maxTiers": 6,
+          "maxWeightKg": 90000
+        },
+        {
+          "rowNumber": "03",
+          "maxTiers": 6,
+          "maxWeightKg": 90000
+        },
+        {
+          "rowNumber": "04",
+          "maxTiers": 6,
+          "maxWeightKg": 90000
+        }
+      ]
+    },
+    {
+      "bayNumber": "03",
+      "isReeferReady": true,
+      "rows": [
+        {
+          "rowNumber": "01",
+          "maxTiers": 7,
+          "maxWeightKg": 100000
+        },
+        {
+          "rowNumber": "02",
+          "maxTiers": 7,
+          "maxWeightKg": 100000
+        },
+        {
+          "rowNumber": "03",
+          "maxTiers": 7,
+          "maxWeightKg": 100000
+        },
+        {
+          "rowNumber": "04",
+          "maxTiers": 7,
+          "maxWeightKg": 100000
+        }
+      ]
+    },
+    {
+      "bayNumber": "05",
+      "isReeferReady": false,
+      "rows": [
+        {
+          "rowNumber": "01",
+          "maxTiers": 5,
+          "maxWeightKg": 85000
+        },
+        {
+          "rowNumber": "02",
+          "maxTiers": 5,
+          "maxWeightKg": 85000
+        },
+        {
+          "rowNumber": "03",
+          "maxTiers": 5,
+          "maxWeightKg": 85000
+        },
+        {
+          "rowNumber": "04",
+          "maxTiers": 5,
+          "maxWeightKg": 85000
+        }
+      ]
+    },
+    {
+      "bayNumber": "07",
+      "isReeferReady": false,
+      "rows": [
+        {
+          "rowNumber": "01",
+          "maxTiers": 6,
+          "maxWeightKg": 95000
+        },
+        {
+          "rowNumber": "02",
+          "maxTiers": 6,
+          "maxWeightKg": 95000
+        },
+        {
+          "rowNumber": "03",
+          "maxTiers": 6,
+          "maxWeightKg": 95000
+        },
+        {
+          "rowNumber": "04",
+          "maxTiers": 6,
+          "maxWeightKg": 95000
+        }
+      ]
+    },
+    {
+      "bayNumber": "09",
+      "isReeferReady": true,
+      "rows": [
+        {
+          "rowNumber": "01",
+          "maxTiers": 8,
+          "maxWeightKg": 105000
+        },
+        {
+          "rowNumber": "02",
+          "maxTiers": 8,
+          "maxWeightKg": 105000
+        },
+        {
+          "rowNumber": "03",
+          "maxTiers": 8,
+          "maxWeightKg": 105000
+        },
+        {
+          "rowNumber": "04",
+          "maxTiers": 8,
+          "maxWeightKg": 105000
+        }
+      ]
+    },
+    {
+      "bayNumber": "11",
+      "isReeferReady": false,
+      "rows": [
+        {
+          "rowNumber": "01",
+          "maxTiers": 6,
+          "maxWeightKg": 92000
+        },
+        {
+          "rowNumber": "02",
+          "maxTiers": 6,
+          "maxWeightKg": 92000
+        },
+        {
+          "rowNumber": "03",
+          "maxTiers": 6,
+          "maxWeightKg": 92000
+        },
+        {
+          "rowNumber": "04",
+          "maxTiers": 6,
+          "maxWeightKg": 92000
+        }
+      ]
+    }
+  ],
+  "assignment": [
+    {
+      "containerId": "EVGU1122334",
+      "bay": "03",
+      "row": "02",
+      "tier": 1,
+      "locationCode": "0302001",
+      "pod": "HKG",
+      "weightKg": 25000,
+      "isHazardous": false,
+      "isReefer": true
+    },
+    {
+      "containerId": "ONEU5566889",
+      "bay": "07",
+      "row": "02",
+      "tier": 1,
+      "locationCode": "0702001",
+      "pod": "HKG",
+      "weightKg": 24500,
+      "isHazardous": true,
+      "isReefer": false
+    },
+    {
+      "containerId": "PILU6677889",
+      "bay": "05",
+      "row": "02",
+      "tier": 1,
+      "locationCode": "0502001",
+      "pod": "HKG",
+      "weightKg": 19500,
+      "isHazardous": true,
+      "isReefer": false
+    },
+    {
+      "containerId": "MSCU7654321",
+      "bay": "05",
+      "row": "02",
+      "tier": 3,
+      "locationCode": "0502003",
+      "pod": "HKG",
+      "weightKg": 18000,
+      "isHazardous": false,
+      "isReefer": false
+    },
+    {
+      "containerId": "MAEU9900112",
+      "bay": "03",
+      "row": "02",
+      "tier": 2,
+      "locationCode": "0302002",
+      "pod": "HKG",
+      "weightKg": 17500,
+      "isHazardous": false,
+      "isReefer": true
+    },
+    {
+      "containerId": "EMCU2233445",
+      "bay": "05",
+      "row": "03",
+      "tier": 3,
+      "locationCode": "0503003",
+      "pod": "SIN",
+      "weightKg": 22500,
+      "isHazardous": false,
+      "isReefer": false
+    },
+    {
+      "containerId": "CMAU1234567",
+      "bay": "05",
+      "row": "03",
+      "tier": 4,
+      "locationCode": "0503004",
+      "pod": "SIN",
+      "weightKg": 22000,
+      "isHazardous": false,
+      "isReefer": false
+    },
+    {
+      "containerId": "HMMU1122445",
+      "bay": "05",
+      "row": "03",
+      "tier": 5,
+      "locationCode": "0503005",
+      "pod": "SIN",
+      "weightKg": 18500,
+      "isHazardous": false,
+      "isReefer": false
+    },
+    {
+      "containerId": "APLU1122334",
+      "bay": "05",
+      "row": "02",
+      "tier": 4,
+      "locationCode": "0502004",
+      "pod": "SIN",
+      "weightKg": 16500,
+      "isHazardous": false,
+      "isReefer": false
+    },
+    {
+      "containerId": "YMLU9876543",
+      "bay": "05",
+      "row": "04",
+      "tier": 1,
+      "locationCode": "0504001",
+      "pod": "SIN",
+      "weightKg": 15000,
+      "isHazardous": true,
+      "isReefer": false
+    },
+    {
+      "containerId": "HLCU5566778",
+      "bay": "07",
+      "row": "02",
+      "tier": 3,
+      "locationCode": "0702003",
+      "pod": "ROT",
+      "weightKg": 23000,
+      "isHazardous": true,
+      "isReefer": false
+    },
+    {
+      "containerId": "COSU3344667",
+      "bay": "05",
+      "row": "01",
+      "tier": 3,
+      "locationCode": "0501003",
+      "pod": "NYC",
+      "weightKg": 21000,
+      "isHazardous": false,
+      "isReefer": false
+    },
+    {
+      "containerId": "OOLU7788990",
+      "bay": "03",
+      "row": "03",
+      "tier": 1,
+      "locationCode": "0303001",
+      "pod": "LAX",
+      "weightKg": 28000,
+      "isHazardous": false,
+      "isReefer": true
+    },
+    {
+      "containerId": "TGHU3344556",
+      "bay": "05",
+      "row": "01",
+      "tier": 4,
+      "locationCode": "0501004",
+      "pod": "NGB",
+      "weightKg": 19500,
+      "isHazardous": false,
+      "isReefer": false
+    },
+    {
+      "containerId": "WHLU7788001",
+      "bay": "03",
+      "row": "02",
+      "tier": 3,
+      "locationCode": "0302003",
+      "pod": "JKT",
+      "weightKg": 15500,
+      "isHazardous": false,
+      "isReefer": true
+    }
+  ],
+  "cost": 15,
+  "totalReStows": 0,
+  "totalMoves": 15
+}

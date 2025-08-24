@@ -1,0 +1,62 @@
+{
+  "vesselId": "COSCO_ASIA_PLUS",
+  "bays": [
+    {
+      "bayNumber": "01",
+      "rows": [
+        {"rowNumber": "01", "maxTiers": 6, "maxWeightKg": 90000},
+        {"rowNumber": "02", "maxTiers": 6, "maxWeightKg": 90000},
+        {"rowNumber": "03", "maxTiers": 6, "maxWeightKg": 90000},
+        {"rowNumber": "04", "maxTiers": 6, "maxWeightKg": 90000}
+      ]
+    },
+    {
+      "bayNumber": "03",
+      "isReeferReady": true,
+      "rows": [
+        {"rowNumber": "01", "maxTiers": 7, "maxWeightKg": 100000},
+        {"rowNumber": "02", "maxTiers": 7, "maxWeightKg": 100000},
+        {"rowNumber": "03", "maxTiers": 7, "maxWeightKg": 100000},
+        {"rowNumber": "04", "maxTiers": 7, "maxWeightKg": 100000}
+      ]
+    },
+    {
+      "bayNumber": "05",
+      "rows": [
+        {"rowNumber": "01", "maxTiers": 5, "maxWeightKg": 85000},
+        {"rowNumber": "02", "maxTiers": 5, "maxWeightKg": 85000},
+        {"rowNumber": "03", "maxTiers": 5, "maxWeightKg": 85000},
+        {"rowNumber": "04", "maxTiers": 5, "maxWeightKg": 85000}
+      ]
+    },
+    {
+      "bayNumber": "07",
+      "isReeferReady": false,
+      "rows": [
+        {"rowNumber": "01", "maxTiers": 6, "maxWeightKg": 95000},
+        {"rowNumber": "02", "maxTiers": 6, "maxWeightKg": 95000},
+        {"rowNumber": "03", "maxTiers": 6, "maxWeightKg": 95000},
+        {"rowNumber": "04", "maxTiers": 6, "maxWeightKg": 95000}
+      ]
+    },
+    {
+      "bayNumber": "09",
+      "isReeferReady": true,
+      "rows": [
+        {"rowNumber": "01", "maxTiers": 8, "maxWeightKg": 105000},
+        {"rowNumber": "02", "maxTiers": 8, "maxWeightKg": 105000},
+        {"rowNumber": "03", "maxTiers": 8, "maxWeightKg": 105000},
+        {"rowNumber": "04", "maxTiers": 8, "maxWeightKg": 105000}
+      ]
+    },
+    {
+      "bayNumber": "11",
+      "rows": [
+        {"rowNumber": "01", "maxTiers": 6, "maxWeightKg": 92000},
+        {"rowNumber": "02", "maxTiers": 6, "maxWeightKg": 92000},
+        {"rowNumber": "03", "maxTiers": 6, "maxWeightKg": 92000},
+        {"rowNumber": "04", "maxTiers": 6, "maxWeightKg": 92000}
+      ]
+    }
+  ]
+}

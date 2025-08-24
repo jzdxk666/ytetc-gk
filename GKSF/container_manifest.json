@@ -1,0 +1,122 @@
+[
+  {
+    "containerId": "CMAU1234567",
+    "weightKg": 22000,
+    "pod": "SIN",
+    "type": "20GP",
+    "isHazardous": false,
+    "isReefer": false
+  },
+  {
+    "containerId": "MSCU7654321",
+    "weightKg": 18000,
+    "pod": "HKG",
+    "type": "40HQ",
+    "isHazardous": false,
+    "isReefer": false
+  },
+  {
+    "containerId": "YMLU9876543",
+    "weightKg": 15000,
+    "pod": "SIN",
+    "type": "20GP",
+    "isHazardous": true,
+    "isReefer": false
+  },
+  {
+    "containerId": "EVGU1122334",
+    "weightKg": 25000,
+    "pod": "HKG",
+    "type": "20RF",
+    "isHazardous": false,
+    "isReefer": true
+  },
+  {
+    "containerId": "TGHU3344556",
+    "weightKg": 19500,
+    "pod": "NGB",
+    "type": "20GP",
+    "isHazardous": false,
+    "isReefer": false
+  },
+  {
+    "containerId": "OOLU7788990",
+    "weightKg": 28000,
+    "pod": "LAX",
+    "type": "40HQ",
+    "isHazardous": false,
+    "isReefer": true
+  },
+  {
+    "containerId": "APLU1122334",
+    "weightKg": 16500,
+    "pod": "SIN",
+    "type": "20GP",
+    "isHazardous": false,
+    "isReefer": false
+  },
+  {
+    "containerId": "HLCU5566778",
+    "weightKg": 23000,
+    "pod": "ROT",
+    "type": "40HQ",
+    "isHazardous": true,
+    "isReefer": false
+  },
+  {
+    "containerId": "MAEU9900112",
+    "weightKg": 17500,
+    "pod": "HKG",
+    "type": "20RF",
+    "isHazardous": false,
+    "isReefer": true
+  },
+  {
+    "containerId": "COSU3344667",
+    "weightKg": 21000,
+    "pod": "NYC",
+    "type": "40HQ",
+    "isHazardous": false,
+    "isReefer": false
+  },
+  {
+    "containerId": "HMMU1122445",
+    "weightKg": 18500,
+    "pod": "SIN",
+    "type": "20GP",
+    "isHazardous": false,
+    "isReefer": false
+  },
+  {
+    "containerId": "ONEU5566889",
+    "weightKg": 24500,
+    "pod": "HKG",
+    "type": "40HQ",
+    "isHazardous": true,
+    "isReefer": false
+  },
+  {
+    "containerId": "WHLU7788001",
+    "weightKg": 15500,
+    "pod": "JKT",
+    "type": "20GP",
+    "isHazardous": false,
+    "isReefer": true
+  },
+  {
+    "containerId": "EMCU2233445",
+    "weightKg": 22500,
+    "pod": "SIN",
+    "type": "40HQ",
+    "isHazardous": false,
+    "isReefer": false
+  },
+  {
+    "containerId": "PILU6677889",
+    "weightKg": 19500,
+    "pod": "HKG",
+    "type": "20GP",
+    "isHazardous": true,
+    "isReefer": false
+  }
+]
